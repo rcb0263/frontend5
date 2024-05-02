@@ -1,4 +1,3 @@
-// Apartado.tsx
 import { FunctionComponent } from "preact";
 import { Tarea } from "../types.ts";
 

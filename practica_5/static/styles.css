@@ -1,12 +1,10 @@
-/* styles.css */
 
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex; /* Añadido */
-  justify-content: center; /* Añadido */
+  display: flex; 
+  justify-content: center; 
 }
 
 .isla {
@@ -15,8 +13,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Transparencia para la isla */
-  z-index: 1; /* Z-index más bajo para la isla */
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,13 +24,13 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  width: 50%; /* Ocupa la mitad derecha de la pantalla */
+  width: 50%;
   height: 100%;
   background-color: white;
-  z-index: 2; /* Z-index más alto para el sheet */
+  z-index: 2;
   overflow: auto;
   padding: 20px;
-  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1); /* Sombra en el borde izquierdo */
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .columns {
@@ -43,8 +41,8 @@ body {
 .column {
   position: relative;
   width: 200px;
-  height: 90vh; /* Altura máxima del 90% del viewport height */
-  overflow-y: auto; /* Agregado overflow-y para desplazamiento vertical si es necesario */
+  height: 90vh; 
+  overflow-y: auto; 
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;

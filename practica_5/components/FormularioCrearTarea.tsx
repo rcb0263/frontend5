@@ -17,8 +17,8 @@ export const FormularioCrearTarea: FunctionComponent<FormularioCrearTareaProps> 
       estado: estado
     };
     onCrearTarea(nuevaTarea);
-    setNombre(""); // Limpiar el campo de nombre después de crear la tarea
-    onClose(); // Cerrar el formulario después de crear la tarea
+    setNombre("");
+    onClose();
   };
 
   return (

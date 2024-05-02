@@ -90,7 +90,6 @@ export default function Inicio() {
         name: nuevoNombre
       };
 
-      // Mover la tarea a la columna correspondiente
       handleMoverTarea(updatedTarea, editTarea.estado, nuevoEstado);
     }
     handleCloseEditForm();

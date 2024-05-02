@@ -15,7 +15,6 @@ export const FormularioEditarTarea: FunctionComponent<FormularioEditarTareaProps
 
   const handleSaveChanges = () => {
     onSave(nuevoNombre, nuevoEstado);
-    // Mover la tarea a la columna correspondiente
     onMoveToColumn(tarea, nuevoEstado);
   };
 
